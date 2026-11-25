@@ -1,0 +1,18 @@
+.shop-header{height:76px;background:#151627;color:#fff;position:sticky;top:0;z-index:50;box-shadow:0 5px 18px #10102024}
+.shop-nav{max-width:1440px;height:100%;margin:auto;padding:0 5.2%;display:flex;align-items:center;justify-content:space-between;gap:28px}
+.shop-brand{display:flex;align-items:center;gap:11px;color:#fff;font-size:25px;font-weight:800;letter-spacing:-.8px;white-space:nowrap}
+.shop-brand>span:last-child>span{color:#a855f7}
+.brand-icon{color:#a855f7;display:flex}
+.nav-links{display:flex;align-items:center;gap:30px;margin-left:auto;margin-right:auto}
+.nav-links a,.nav-actions a,.nav-actions button{color:#f7f7fb;font-size:15px;transition:color .2s}
+.nav-links a:hover,.nav-actions a:hover,.nav-actions button:hover{color:#bd82ff}
+.nav-chevron{font-size:18px;margin-left:3px}
+.nav-links .sale-link{background:#8b3de0;padding:10px 17px;border-radius:10px;font-weight:700}
+.nav-actions{display:flex;align-items:center;gap:25px}
+.nav-actions button{background:none;border:0;display:flex;align-items:center;cursor:pointer}
+.nav-cart{position:relative;display:flex}
+.cart-count{position:absolute;right:-10px;top:-9px;background:#ed3156;color:#fff;border-radius:50%;font-size:10px;font-weight:700;width:18px;height:18px;display:grid;place-items:center}
+.nav-user-name{font-size:13px;color:#eee}
+.mobile-menu{display:none!important}
+@media(max-width:900px){.shop-nav{padding:0 22px}.nav-links{gap:15px}.nav-links a{font-size:13px}.shop-brand{font-size:21px}.nav-actions{gap:16px}}
+@media(max-width:680px){.shop-header{height:66px}.nav-links{display:none}.mobile-menu{display:flex!important}.nav-actions{gap:17px}.nav-user-name{display:none}}
